@@ -19,20 +19,20 @@ public class CodeTest {
      * @param args the command line arguments
      */
     
-      static  String aThousand = "10000";
+static String aThousand = "10000";
 static String fifThousand ="50000";
 static String hudThousand = "100000";
 static String defaulT = "default"; 
 
-    public static void main(String[] args) {
-       System.out.println(getFirstName());
-       int salary = 50000;
+  public static void main(String[] args) {
+  System.out.println(getFirstName());
+  int salary = 50000;
        
-        double forty = 40.0/100.0 * salary;
-        System.out.println(forty);
+  double forty = 40.0/100.0 * salary;
+  System.out.println(forty);
         
         
-            String baba = "name babe";
+  String baba = "name babe";
   String b =   baba.replace(baba, "babe");
   System.out.println(b);
   if(baba.contains("babe")){
@@ -40,7 +40,9 @@ static String defaulT = "default";
   }
     }
     
-    
+//THIS METHOD ACCEPTS STRING(SENTENCE) AND SPLIT IN SPACES.
+//USEAGE
+//1. It can be used to accept a fullname and extract the surname.    
    private static String getFirstName(){
     String surnamE = "";
     String getFullname = "ADEFUWA OLUWAPONMILE HUSSEIN";
@@ -61,7 +63,7 @@ ArrayList<String> list = new  ArrayList<>();
     if(a == 1){
       String range = w.randomRange(600, 900);
       if(list.contains(range)){
-          list.remove(range);
+         list.remove(range);
       }else{
         list.add(range);  
       }
@@ -101,6 +103,7 @@ ArrayList<String> list = new  ArrayList<>();
         return cost;
     }
   
+//FIBONACCI SERIES METHOD
 private static void fibonacci(){
     int fabo[] = new int[10];
      fabo[0] = 0;
@@ -121,7 +124,7 @@ String[] arr = getQuestion.split(" ");
  return arr;
 }
 
-    private static void locateSequence(int [] num){
+private static void locateSequence(int [] num){
           int value;
           int firstnum ;
           int secondnum;
@@ -184,7 +187,7 @@ String[] arr = getQuestion.split(" ");
       }
     }
     
-   private static void split(){ 
+private static void split(){ 
     String catchIt = null;
     String temp ="";
     String[] ignore = {"design","and","implementation", "father"};   
