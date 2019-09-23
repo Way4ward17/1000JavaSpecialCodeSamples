@@ -5,6 +5,7 @@
  */
 package code.test;
 
+import help.Way4wardHelper;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -215,4 +216,5 @@ private static void split(){
             }
    
     
+}
 }
